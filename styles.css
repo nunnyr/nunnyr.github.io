@@ -1,3 +1,44 @@
-html {
-  scroll-behavior: smooth;
+body {
+  padding-top: 50px;
+}
+
+nav a {
+  padding-top: 20px !important;
+  padding-bottom: 20px !important;
+  font-size: 18px;
+  transition: all 0.3s ease;
+}
+
+nav .navbar-toggle {
+  margin: 13px 15px 13px 0;
+}
+
+.navbar-brand {
+  font-size: 30px;
+}
+
+
+
+nav.navbar.shrink {
+  min-height: 35px;
+}
+
+nav.shrink a {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  font-size: 15px;
+}
+
+nav.shrink .navbar-brand {
+  font-size: 25px;
+  height:auto;
+}
+
+nav.shrink .navbar-toggle {
+  padding: 4px 5px;
+  margin: 8px 15px 8px 0;
+}
+
+nav.shrink .navbar-collapse.collapse {
+  height:initial !important;
 }
