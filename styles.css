@@ -26,6 +26,7 @@
   color:red;
   list-style: none;
   padding: 15px;
+  margin-top: 15px;
   border-bottom: red;
 }
 
@@ -53,8 +54,26 @@
   width: 100%;
 }
 
-/* #main-header h1 h2 {
-  position: center;
-  font-size: auto;
-} */
+.name {
+   font-family: 'Playfair Display', serif;
+   text-align: center;
+   padding: 15px;
+   color: red;
+   text-shadow: horizontal-offset vertical-offset blur color;
+}
 
+.fab{
+  
+  font-size: 20px; 
+  float: right;
+  padding: 15px;
+  margin-top: -49px;
+  margin-bottom: 10px;
+  /* margin: 5px;
+  margin-top: 5px; */
+  
+}
+
+.about {
+  font-family: 'Playfair Display', serif;
+}
