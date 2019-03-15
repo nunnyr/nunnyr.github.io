@@ -46,7 +46,7 @@
   
 }
 
-#main-header {
+.main-header {
   background-color: #fceeec;
   position: fixed;
   height: 80px;
