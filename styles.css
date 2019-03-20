@@ -56,7 +56,7 @@
   background-color: #fceeec;
   font-family: 'Playfair Display', serif;
   position: fixed;
-  height: 140px;
+  height: 105px;
   width: 100%;
   z-index: 1;
   
@@ -128,4 +128,13 @@
   text-align: center;
   color:  #8B0000;
 
+}
+
+
+
+#featured {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  text-align: center;
+  color: black;
 }
