@@ -28,37 +28,45 @@
   padding: 15px;
   margin-top: 15px;
   border-bottom: red;
+ 
+  
 }
 
 #sidebar .toggle-btn {
-  position: absolute;
-  padding: 10px;
+  position: relative;
+  padding: 5px;
   display: block;
   left: 230px;
   top: 20px;
 }
 
 #sidebar .toggle-btn span {
-  display: block;
+  /* display: block; */
   width: 30px;
   height: 5px;
-  background:red;
+  background: #8B0000;
+  
   margin: 3px 0px;
+  position: relative;
+  z-index: 1;
   
 }
 
 .main-header {
   background-color: #fceeec;
+  font-family: 'Playfair Display', serif;
   position: fixed;
-  height: 80px;
+  height: 140px;
   width: 100%;
+  z-index: 1;
+  
 }
 
 .name {
    font-family: 'Playfair Display', serif;
    text-align: center;
-   padding: 15px;
-   color: red;
+   padding: 10px;
+   color: #8B0000;
    text-shadow: horizontal-offset vertical-offset blur color;
 }
 
@@ -74,6 +82,50 @@
   
 }
 
-.about {
+.about{
   font-family: 'Playfair Display', serif;
+}
+
+.jumbotron {
+  background-image: url("img/dusk.jpeg");
+  background-size: cover;
+}
+
+
+
+.social_container {
+  margin-left: 200px;
+  padding: 5px;
+}
+
+.footer {
+  background-color: #fceeec;
+  font-size: 2px;
+  font-family: 'Playfair Display', serif;
+  /* position: fixed; */
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  z-index: 1;
+  color: #8B0000;
+  text-align: center;
+  
+}
+
+.info {
+  font-family: 'Playfair Display', serif;
+  font-size: 18px;
+  line-height: 35px;
+}
+
+.title {
+  padding-top: 15px;
+}
+
+.profession {
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+  text-align: center;
+  color:  #8B0000;
+
 }
