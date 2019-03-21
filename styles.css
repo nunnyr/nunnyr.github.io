@@ -54,7 +54,7 @@
 
 .main-header {
   background-color: #fceeec;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   position: fixed;
   height: 105px;
   width: 100%;
@@ -63,7 +63,7 @@
 }
 
 .name {
-   font-family: 'Playfair Display', serif;
+   font-family: 'Lato', sans-serif;
    text-align: center;
    padding: 10px;
    color: #8B0000;
@@ -83,7 +83,8 @@
 }
 
 .about{
-  font-family: 'Playfair Display', serif;
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Lato', sans-serif;
 }
 
 .jumbotron {
@@ -101,7 +102,7 @@
 .footer {
   background-color: #fceeec;
   font-size: 2px;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   /* position: fixed; */
   bottom: 0;
   width: 100%;
@@ -113,7 +114,7 @@
 }
 
 .info {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 18px;
   line-height: 35px;
 }
@@ -123,7 +124,7 @@
 }
 
 .profession {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 20px;
   text-align: center;
   color:  #8B0000;
@@ -133,7 +134,7 @@
 
 
 #featured {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Lato', sans-serif;
   font-size: 30px;
   text-align: center;
   color: black;
