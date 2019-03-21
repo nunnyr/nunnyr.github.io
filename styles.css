@@ -100,7 +100,7 @@
 }
 
 .footer {
-  background-color: #fceeec;
+  background-color: #8B0000;
   font-size: 2px;
   font-family: 'Lato', sans-serif;
   /* position: fixed; */
@@ -108,7 +108,7 @@
   width: 100%;
   padding: 15px;
   z-index: 1;
-  color: #8B0000;
+  color:  #fceeec;
   text-align: center;
   
 }
@@ -142,4 +142,31 @@
 
 .row {
   font-family: 'Lato', sans-serif;
+}
+
+.social_container {
+  color: black;
+
+}
+
+.social_container:hover {
+  color: rgb(209, 206, 206);
+}
+
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-float:hover, .hvr-float:focus, .hvr-float:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
 }
