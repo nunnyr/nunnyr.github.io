@@ -170,3 +170,10 @@
   -webkit-transform: translateY(-8px);
   transform: translateY(-8px);
 }
+
+@media screen and (max-width: 680px) {
+  .social_container {
+     display: none;
+  }
+}
+
