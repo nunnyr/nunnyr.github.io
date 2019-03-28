@@ -85,7 +85,10 @@
 .about{
   /* font-family: 'Playfair Display', serif; */
   font-family: 'Lato', sans-serif;
+  /* margin: -30px; */
 }
+
+
 
 .jumbotron {
   background-image: url("img/dusk.jpeg");
@@ -183,5 +186,5 @@
 }
 
 @media screen and (max-width:250px) {
-
+ 
 }
