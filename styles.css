@@ -59,6 +59,7 @@
   height: 105px;
   width: 100%;
   z-index: 1;
+  display: inline-block;
   
 }
 
@@ -103,7 +104,7 @@
 
 
 .social_container {
-  margin-left: 200px;
+  margin-left: 100px;
   padding: 5px;
 }
 
@@ -187,10 +188,8 @@
   }
 }
 
-@media screen and (max-width:890px) {
-  .img-fluid {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+@media screen and (max-width:680px) {
+  .footer{
+    display: center;
   }
 }
