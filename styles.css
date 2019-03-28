@@ -92,6 +92,11 @@
   background-size: cover;
 }
 
+.spacing {
+  color: white;
+  /* display:none; */
+}
+
 
 
 .social_container {
@@ -177,3 +182,6 @@
   }
 }
 
+@media screen and (max-width:250px) {
+
+}
