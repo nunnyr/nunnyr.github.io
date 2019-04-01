@@ -9,10 +9,12 @@ This project is still being built in 2019. New features are to expected.
 
 
 <h2>Tech/Frameworks used</h2>
-    *HTML & CSS
-    *JavaScript
-    *jQuery
-    *Boostrap
+    <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>jQuery</li>
+        <li>Boostrap</li>
+    </ul>
 
 <h2>How to Use?</h2>
 Reader can browse throughout the website and connect with me further through various links. 
