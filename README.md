@@ -5,7 +5,7 @@ Hello! Welcome to my portfolio. I am entering the tech field with a nontradition
 
 
 <h2>Build Status</h2>
-This project is still being built in 2019. New features are to expected.
+This project is still being built in 2019. New features are to be expected.
 
 
 <h2>Tech/Frameworks used</h2>
